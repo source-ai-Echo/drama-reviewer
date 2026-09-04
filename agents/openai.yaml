@@ -1,0 +1,8 @@
+interface:
+  display_name: "Drama Reviewer"
+  short_description: "诊断影视与舞台剧本的结构、人物、场景、节奏及对白问题"
+  default_prompt: "Use $drama-reviewer to diagnose this script and prioritize the most valuable revisions."
+
+policy:
+  allow_implicit_invocation: true
+
