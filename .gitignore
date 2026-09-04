@@ -1,0 +1,9 @@
+.DS_Store
+app/.venv/
+app/__pycache__/
+app/*.egg-info/
+app/.env
+app/.env.local
+app/reviews/
+app/evals/results/
+*.pyc

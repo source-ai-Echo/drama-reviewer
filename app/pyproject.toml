@@ -1,0 +1,18 @@
+[project]
+name = "drama-reviewer-agent"
+version = "0.1.0"
+description = "A local, evidence-based drama review agent with pluggable model providers."
+requires-python = ">=3.10"
+dependencies = [
+  "openai-agents>=0.2.0",
+  "pydantic>=2.7",
+  "python-multipart>=0.0.9",
+  "starlette>=0.27",
+  "uvicorn>=0.31",
+]
+
+[project.scripts]
+drama-reviewer = "main:main"
+
+[tool.setuptools]
+py-modules = ["agent", "config", "knowledge", "main", "providers", "schemas", "web_app"]

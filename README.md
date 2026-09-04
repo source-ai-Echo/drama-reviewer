@@ -1,6 +1,6 @@
 # Drama Reviewer
 
-一个面向电影、电视剧、短剧和舞台剧的剧本诊断 Skill。它帮助 ChatGPT 和 Codex 从故事引擎、结构、人物、场景、节奏及对白等维度给出有文本依据、按优先级排列的修改建议。
+一个面向电影、电视剧、短剧和舞台剧的剧本诊断项目。仓库同时提供可安装的 Codex Skill 和可在个人电脑运行的 Agent 网页，从故事引擎、结构、人物、场景、节奏及对白等维度给出有文本依据、按优先级排列的修改建议。
 
 ## 能做什么
 
@@ -18,6 +18,7 @@
 ```text
 drama-reviewer/
 ├── SKILL.md
+├── app/                    # 本地 Agent 网页（可独立运行）
 ├── agents/
 │   └── openai.yaml
 ├── references/
@@ -28,6 +29,17 @@ drama-reviewer/
 ├── README.md
 └── LICENSE
 ```
+
+## 本地 Agent 网页
+
+如果不想只在 Codex 中使用 Skill，可以下载整个仓库，在自己的电脑启动图形界面：
+
+- macOS：双击 `app/start-mac.command`
+- Windows：双击 `app/start-windows.bat`
+
+首次启动需要联网安装依赖。网页默认只在本机 `127.0.0.1` 开放，不需要购买域名。用户可填写自己的 OpenAI/兼容服务 API Key，或连接已经运行的本地模型。仓库不内置任何密钥，也不包含作者的私人剧本。
+
+完整说明见 [本地 Agent 使用指南](app/README.md)。
 
 ## 安装
 

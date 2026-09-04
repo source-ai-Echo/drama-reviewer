@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "description": "Public synthetic examples for local testing. No private scripts are included.",
+  "retrieval_files": [
+    "cases/knowledge/sample-01.md",
+    "cases/knowledge/sample-02.md",
+    "cases/knowledge/sample-03.md"
+  ]
+}
